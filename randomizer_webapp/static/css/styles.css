@@ -1,0 +1,81 @@
+.compact.segment {
+	padding: 0px !important;
+}
+
+.segment img {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.segment {
+	background-color: #3A414C !important;
+	opacity: 0.9;
+}
+
+.horizontal.segments{
+	border: 0px !important;
+}
+
+.secondary.segment {
+	min-width: 350px !important;
+	border-top-right-radius: 3px !important;
+	border-bottom-right-radius: 3px !important;
+}
+
+.compact.segment{
+	border-top-left-radius: 3px !important;
+	border-bottom-left-radius: 3px !important;
+}
+
+.star.icon {
+	color: #F9B200;
+	font-size: 1.5em;
+}
+
+.red.button {
+	margin-top: 7px;
+}
+
+h3 {
+	color: white;
+}
+
+span {
+	color: grey;
+}
+
+.header{
+	margin-top: 30px !important;
+}
+
+.big-header {
+	margin-top: 100px !important;
+	font-size: 3em !important;
+}
+
+.background-image {
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	
+	display: block;
+	background-image: url('../images/bg.jpg');
+	height: inherit;
+	
+	opacity: 0.5;
+	filter: blur(0.3px);
+	-webkit-filter: blur(0.3px);
+	-moz-filter: blur(0.3px);
+	-o-filter: blur(0.3px);
+	-ms-filter: blur(0.3px);
+}
+
+#content {
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	margin-left: 20px;
+	margin-right: 20px;
+}
